@@ -21,6 +21,8 @@
                 position: relative;
             }
             &__person {
+                margin-right: col(12, 37);
+                margin-left: col(12, 37);
                 width: 100px;
                 height: auto;
                 position: absolute;
