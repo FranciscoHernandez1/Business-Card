@@ -1,0 +1,20 @@
+{
+    "name": "business-card",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "style": "sass --watch styles/sass/style.scss:styles/css/estilos.css --style compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RoxanaHernandezE/Business-Card.git"
+    },
+    "author": "valeria berrocal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RoxanaHernandezE/Business-Card/issues"
+    },
+    "homepage": "https://github.com/RoxanaHernandezE/Business-Card#readme"
+}

@@ -1,0 +1,106 @@
+.card {
+    &__header {
+        &__text {
+            background-color: rgba(242, 146, 33, 0.86);
+            padding: 20px;
+            text-align: center;
+            p {
+                font-family: "Lato", Arial;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 14px;
+                color: #FFFFFF;
+                line-height: 24px;
+            }
+        }
+        &__fondo {
+            position: relative;
+            &__home {
+                width: 100%;
+                position: relative;
+            }
+            &__person {
+                width: 100px;
+                height: auto;
+                position: absolute;
+                top: 144px;
+                left: 165px;
+            }
+        }
+    }
+    &__text {
+        position: relative;
+        padding-top: 50px;
+        h1 {
+            font-family: "Lato", Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #5E5D5D;
+            margin-right: col(10, 37);
+            margin-left: col(10, 37);
+        }
+    }
+    &__contact {
+        background-color: #F2F2F2;
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+        .contactlist {
+            img {
+                width: col(25, 37);
+            }
+        }
+        .icons {
+            margin-top: 20px;
+            a {
+                margin-right: col(0.5, 37);
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    width: 40px;
+                    height: auto;
+                }
+            }
+        }
+    }
+    &__share {
+        margin-top: 20px;
+        h2 {
+            font-family: "Lato", Arial;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #5E5D5D;
+        }
+        .shareicons {
+            text-align: center;
+            margin-top: 20px;
+            a {
+                margin-right: col(3, 37);
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+        }
+    }
+    &__footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        img {
+            width: 70px;
+            height: auto;
+        }
+    }
+}
