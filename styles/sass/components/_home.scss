@@ -95,9 +95,9 @@
         }
     }
     &__footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
         img {
             width: 70px;
             height: auto;
